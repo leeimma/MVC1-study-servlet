@@ -13,7 +13,7 @@ import org.springframework.util.StreamUtils;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
-@WebServlet(name = "requestBodyStringServelt", urlPatterns = "/request-body-json")
+@WebServlet(name = "requestBodyJsonServelt", urlPatterns = "/request-body-json")
 public class RequestBodyJsonSerVlet extends HttpServlet {
 
     private ObjectMapper objectMapper = new ObjectMapper();
