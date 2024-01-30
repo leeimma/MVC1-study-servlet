@@ -1,6 +1,5 @@
 package hello.servlet.web.frontcontoller.v4;
 
-import hello.servlet.web.frontcontoller.ModelView;
 import hello.servlet.web.frontcontoller.MyView;
 import hello.servlet.web.frontcontoller.v4.controller.MemberFormControllerV4;
 import hello.servlet.web.frontcontoller.v4.controller.MemberListControllerV4;
