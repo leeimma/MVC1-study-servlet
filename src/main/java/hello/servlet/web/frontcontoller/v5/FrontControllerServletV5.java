@@ -11,6 +11,7 @@ import hello.servlet.web.frontcontoller.v4.controller.MemberFormControllerV4;
 import hello.servlet.web.frontcontoller.v4.controller.MemberListControllerV4;
 import hello.servlet.web.frontcontoller.v4.controller.MemberSaveControllerV4;
 import hello.servlet.web.frontcontoller.v5.adapter.ControllerV3HandlerAdapter;
+import hello.servlet.web.frontcontoller.v5.adapter.ControllerV4HandlerAdapter;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -35,6 +36,7 @@ public class FrontControllerServletV5 extends HelloServlet {
 
     private void initHandlerAdapters() {
         handlerAdapters.add(new ControllerV3HandlerAdapter());
+        handlerAdapters.add(new ControllerV4HandlerAdapter());
     }
 
     private void initHandlerMappingMap() {
